@@ -5,6 +5,7 @@
 ## Author: Crutchie
 ## Dependencies: TradeSkillMaster
 ## OptionalDeps: AuctionPriceGraph
+IconTexture: Interface\AddOns\TSM_PriceGraph_Bridge\logo\pricegraph_bridge
 ## SavedVariables: TSM_PriceGraph_DB
 
 Bridge.lua

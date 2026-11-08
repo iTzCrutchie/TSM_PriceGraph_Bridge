@@ -29,7 +29,3 @@ Two seconds after `PLAYER_LOGIN` fires (allowing TSM and the item cache to finis
 1. Queries `TSM_API.GetGroupPaths` and `TSM_API.GetGroupItems` to build a list of all items across your TSM groups.
 2. Injects those items into Auctionator's `ListManager` (and legacy `AUCTIONATOR_SHOPPING_LISTS` table) prefixed with `TSM: `.
 3. Checks `AuctionPriceGraphDB` for any grouped items with fewer than two recorded data points and populates a 48-hour baseline using TSM's internal price sources.
-
-## License
-
-MIT

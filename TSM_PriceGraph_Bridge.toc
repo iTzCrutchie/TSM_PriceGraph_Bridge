@@ -1,11 +1,12 @@
 ## Interface: 16001
 ## Title: TSM Price Graph Bridge
 ## Version: 0.0.1
+## Category: Auctions
+## Category-enUS: Auctions
 ## Notes: Allows Auction Price Graph to track TSM Groups without Auctionator
 ## Author: Crutchie
-## Dependencies: TradeSkillMaster
-## OptionalDeps: AuctionPriceGraph
-IconTexture: Interface\AddOns\TSM_PriceGraph_Bridge\logo\pricegraph_bridge
+## Dependencies: TradeSkillMaster, Auctionator, AuctionPriceGraph
+## IconTexture: Interface\AddOns\TSM_PriceGraph_Bridge\logo\pricegraph_bridge
 ## SavedVariables: TSM_PriceGraph_DB
 
 Bridge.lua
